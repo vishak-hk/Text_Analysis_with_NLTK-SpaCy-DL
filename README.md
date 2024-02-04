@@ -22,7 +22,13 @@ Learn and apply Natural Language Processing (NLP) techniques using popular Pytho
    Enter the realm of word embeddings with gensim's Word2Vec. Implement this technique on the entire dataset to create vector representations of words. Train the Word2Vec model and explore the vector representation of a sample word, uncovering the semantic relationships encoded in the vectors.
 
 7. **TF-IDF with scikit-learn:**
-   Delve into the world of term frequency-inverse document frequency (TF-IDF) with scikit-learn. Implement `TfidfVectorizer` on the entire dataset to transform text into numerical vectors, capturing the importance of words in each document. Calculate the cosine similarity between two news articles, providing a measure of their textual similarity.
+   Explore the power of term frequency-inverse document frequency (TF-IDF) with scikit-learn. Utilize the `TfidfVectorizer` to transform the entire dataset's text into numerical vectors, effectively capturing the significance of words in each document. This technique proves valuable in representing textual information quantitatively, enabling a deeper understanding of document content.
+
+   To take it a step further, calculate the cosine similarity between two news articles. This measurement offers insights into the textual similarity between documents, providing a quantitative measure of their content-related closeness.
+
+   Additionally, complementing the TF-IDF analysis, an SVM (Support Vector Machine) model is employed to predict the category of new text. The model is trained on a labeled dataset containing articles categorized into 'sport,' 'business,' 'politics,' 'entertainment,' and 'tech.' By using the TF-IDF-transformed features, the SVM model learns to classify and predict the category of new textual data.
+
+   This combined approach, involving TF-IDF for feature extraction and SVM for category prediction, demonstrates a powerful methodology for text analysis and categorization.
 
 8. **Bonus:**
    Elevate the project by selecting a different dataset and applying various NLP techniques. Unleash your creativity in exploring new challenges and solutions within the vast field of Natural Language Processing.
